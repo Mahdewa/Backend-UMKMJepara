@@ -8,7 +8,7 @@ function validateParams(obj, params) {
 }
 
 exports.getAllUmkm = async (req, res) => {
-  const data = await Umkm.find({}, 'namaUmkm pemilik');
+  const data = await Umkm.find({}, 'gambar namaUmkm pemilik kontak');
   res.json(data);
 };
 

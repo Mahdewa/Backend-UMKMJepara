@@ -15,7 +15,7 @@ const storage = new CloudinaryStorage({
   params: {
     folder: 'umkm',
     allowed_formats: ['jpg', 'png', 'jpeg'],
-    transformation: [{ width: 800, height: 600, crop: 'limit' }]
+    transformation: [{ width: 1920, height: 1800, crop: 'limit' }]
   },
 });
 
